@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { ToastContainer } from "react-toastify";
 import { addTodo, deleteTodo, removeTodo } from "../redux/action/actionIndex";
 import Toastify from "../components/notification/Toaster";
 import {
@@ -13,7 +12,6 @@ export {
   useState,
   useDispatch,
   useSelector,
-  ToastContainer,
   addTodo,
   deleteTodo,
   removeTodo,

@@ -8,7 +8,6 @@ import {
   deleteTodo,
   removeTodo,
   Toastify,
-  ToastContainer,
 } from "../../import/imports";
 
 function ToDo() {
@@ -78,7 +77,7 @@ function ToDo() {
 
       
       {/* FOR TOASTIFY */}
-      <Toastify ToastContainer={ToastContainer} />
+      <Toastify />
     </>
   );
 }
